@@ -1,2 +1,13 @@
 command to clone:
 git clone https://github.com/PacktPublishing/Data-Engineering-with-Apache-Spark-Delta-Lake-and-Lakehouse.git
+
+MAKING EVENTGRID:
+RESOURCEGROUPNAME="kookie_training_rg"
+LOCATION="eastus"
+TOPIC="esales"
+EVENTHUB_NAMESPACE="esalesns"
+EVENTHUB_NAME="esaleshub"
+EVENT_SUBSCRIPTION="esalesevent"
+az provider register --namespace Microsoft.EventGrid
+az provider show --namespace Microsoft.EventGrid --query "registrationState"
+az eventgrid topic create --name $TOPIC -l $LOCATION -g $RESOURCEGROUPNAME
