@@ -4,7 +4,7 @@ git clone https://github.com/PacktPublishing/Data-Engineering-with-Apache-Spark-
 MAKING EVENTGRID:
 RESOURCEGROUPNAME="kookie_training_rg"
 LOCATION="eastus"
-TOPIC="esales"
+TOPIC="esalesk"
 EVENTHUB_NAMESPACE="esalesns"
 EVENTHUB_NAME="esaleshub"
 EVENT_SUBSCRIPTION="esalesevent"
