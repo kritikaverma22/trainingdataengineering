@@ -1,0 +1,2 @@
+command to clone:
+git clone https://github.com/PacktPublishing/Data-Engineering-with-Apache-Spark-Delta-Lake-and-Lakehouse.git
